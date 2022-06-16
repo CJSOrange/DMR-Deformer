@@ -42,7 +42,11 @@ $ pip install tqdm
 
 You can download the pre-processed datasets [LPBA40](https://drive.google.com/file/d/1308rPiQBZTa13tI-0KbGYUv41G88ejjf/view?usp=sharing) and  [Neurite-OASIS](https://drive.google.com/file/d/1VmwQs2nCsRHEHKUtRUAIE-DJqX6XD4iq/view?usp=sharing) from Google Driver. 
 
-For Neurite-OASIS，you can also alternative download Full Dataset，Validation (skull stripped) and pairs_val.csv from [learn2reg2021](https://learn2reg.grand-challenge.org/Learn2Reg2021/) task3 official website. Then put these three directories under 'root/Dataset/OASIS', where root is optional. Finally, rename Full Dataset as data, Validation (skull stripped) as test_data. Change the root parameter in propress.py and run it.
+For Neurite-OASIS，you can also alternative download Full Dataset, Validation (skull stripped) and pairs_val.csv from [learn2reg2021](https://learn2reg.grand-challenge.org/Learn2Reg2021/) task3 official website. 
+
+Then put these three directories under 'root/Dataset/OASIS', where root is optional. Finally, rename Full Dataset as data, Validation (skull stripped) as test_data. 
+
+Change the root parameter in preprocess.py and run it.
 
 The final dataset directory structure is as follows:
 

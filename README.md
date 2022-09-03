@@ -83,7 +83,7 @@ python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 20003 train
 If you want to load checkpoint at the beginning of training step, you can run this command,  note that ‘path’ is the relative path to root. You can also see the test results for the DMR model loaded with this checkpoint.
 
 ```
-python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 20003 train.py --name='experiment_name' --lr=0.001 --batch_size=4 --dataset='LPBA40' --gpu='0,1,2,3' --use_checkpoint --checkpoint_path='path'
+python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 20003 train.py --name='experiment_name' --lr=0.0004 --batch_size=4 --dataset='LPBA40' --gpu='0,1,2,3' --use_checkpoint --checkpoint_path='path'
 ```
 
 ## Results

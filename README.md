@@ -53,10 +53,10 @@ The final dataset directory structure is as follows:
 - `Root`
   - Dataset
     - LPBA40
-      - train|test|label|fixed.nii.gz|fixed_label.nii.gz
+      - train | test | label | fixed.nii.gz | fixed_label.nii.gz
     - OASIS
-      - data|test_data|pairs_val.csv
-      - train|test|label|fixed.nii.gz|fixed_label.nii.gz
+      - data | test_data | pairs_val.csv
+      - train | test | label | fixed.nii.gz | fixed_label.nii.gz
 
 ## Pre-trained model
 

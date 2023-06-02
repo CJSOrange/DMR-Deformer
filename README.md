@@ -98,7 +98,7 @@ After training and testing, you can see all results in the  directory 'root/expe
     - `run`：Store event files, prepare loss and learning rate for Tensorboard visualization.
 
 
-## Bibtex
+## BibTex
 If you are interested in our paper, please cite:
 ```
 @inproceedings{chen2022deformer,

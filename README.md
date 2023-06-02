@@ -96,3 +96,17 @@ After training and testing, you can see all results in the  directory 'root/expe
     - `Log`：store log files to record changes in loss values for each parameter.
     - `Result`：store image data generated during training and testing.
     - `run`：Store event files, prepare loss and learning rate for Tensorboard visualization.
+
+
+## Bibtex
+If you are interested in our paper, please cite:
+```
+@inproceedings{chen2022deformer,
+  title={Deformer: Towards displacement field learning for unsupervised medical image registration},
+  author={Chen, Jiashun and Lu, Donghuan and Zhang, Yu and Wei, Dong and Ning, Munan and Shi, Xinyu and Xu, Zhe and Zheng, Yefeng},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2022: 25th International Conference, Singapore, September 18--22, 2022, Proceedings, Part VI},
+  pages={141--151},
+  year={2022},
+  organization={Springer}
+}
+```
